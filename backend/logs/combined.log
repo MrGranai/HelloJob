@@ -1,0 +1,7 @@
+2024-11-30T21:17:21.181Z [INFO]: User routes initialized at /api/users
+2024-11-30T21:17:21.183Z [INFO]: Professional routes initialized at /api/professionals
+2024-11-30T21:17:21.183Z [INFO]: Admin routes initialized at /api/admin
+2024-11-30T21:17:21.183Z [INFO]: Support routes initialized at /api/support
+2024-11-30T21:17:21.185Z [INFO]: Environment Variables Loaded: | Meta: {"PORT":"3000"}
+2024-11-30T21:17:21.189Z [INFO]: ✅ Server is running on port 3000
+2024-11-30T21:28:46.694Z [WARN]: ❗ SIGINT received. Shutting down gracefully...

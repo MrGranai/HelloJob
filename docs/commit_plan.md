@@ -111,6 +111,7 @@
     - Function: Enhances communication between clients and professionals.
 
 ---
+
 ## 5. Frontend - Professional App
 26. Commit: 26 [FE] Initialize professional-app with React
     - Description: Created a React app for professionals with basic routing and folder structure.

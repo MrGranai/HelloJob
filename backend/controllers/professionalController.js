@@ -1,12 +1,14 @@
+/**
+ * File: professionalController.js
+ * Description: Handles professional-related logic.
+ */
 
-const User = require('../models/userModel');
+exports.getProfessionals = (req, res) => {
+  // Simulate fetching professionals (replace with database query)
+  const professionals = [
+      { id: 1, name: 'John Doe', profession: 'Electrician' },
+      { id: 2, name: 'Jane Smith', profession: 'Plumber' },
+  ];
 
-// Lista todos os profissionais
-exports.listProfessionals = async (req, res) => {
-  try {
-    const professionals = await User.findAll({ where: { role: 'professional' } });
-    res.status(200).json(professionals);
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
+  res.status(200).json(professionals);
 };

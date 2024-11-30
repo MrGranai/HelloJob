@@ -1,10 +1,14 @@
+/**
+ * File: professionalRoutes.js
+ * Description: Routes for handling professional-related functionality.
+ */
 
 const express = require('express');
-const { listProfessionals } = require('../controllers/professionalController');
+const { getProfessionals } = require('../controllers/professionalController'); // Import the professional controller
 
 const router = express.Router();
 
-// Rota para listar profissionais
-router.get('/', listProfessionals);
+// Route to list professionals
+router.get('/', getProfessionals); // GET /api/professionals
 
-module.exports = router;
+module.exports = router; // Export the router
